@@ -14,3 +14,6 @@ rand = "0.8"
 opt-level = 3
 lto = true
 codegen-units = 1
+
+[dependencies]
+ternary-types = { git = "https://github.com/SuperInstance/ternary-types.git", features = ["std"] }
